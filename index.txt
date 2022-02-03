@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <link rel="manifest" href="/manifest.webmanifest"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home | SnapForks</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    
+    
+    <link rel="stylesheet" href="/style.css">
+    
+
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    <div class="navbar" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="ri-menu-fill"></i>    </a>  
+      
+      <img src="https://cdn.glitch.com/92e53b87-44f7-4277-9851-81b7949b69e2%2Fwhite-snapforks.png" width="40" class="r-do"> SnapForks
+      <a href="#" class="navbar1 button-white right">Run</a>
+      <a href="#" class="navbar1 button right">Github <i class="ri-github-fill ri-lg r-do"></i></a>
+    </div>
+    
+    <div class="header">
+      <span class="title">Embed Snap! projects</span><br><br>
+      <span class="sub">Improve the running of your project</span>
+      <img style="" src="https://cdn.glitch.com/92e53b87-44f7-4277-9851-81b7949b69e2%2Fimage.png?v=1605316257391">
+    </div>
+    
+    <div class="content">
+      This site is under going development. I hope to realse the site soon to <a href="https://snapforks.github.io">snapforks.github.io</a> soon...
+    </div>
+    
+    <div class="footer">
+      © 2020 SnapForks<br><br>
+      Snap! is licensed under the terms of GNU General Public License v3.0.
+      <section> <h3>Social</h3> <a href="#">Github <i class="ri-github-fill r-do"></i></a> <br> <a href="#">The Snap! Forums</a> </section>
+      <section> <h3>Pages</h3> <a href="#">Player</a> </section>
+    </div>
+  </body>
+</html>
