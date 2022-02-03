@@ -1,0 +1,451 @@
+/* Please email me at llama552621@gmail.com before using anything from stylesheet, to get permission. I worked long hours just to make this stylesheet */
+/* Import base fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+@import url('https://daniel4-scratch.github.io/font-archive/fonts/Mojang-Regular.ttf');
+@import url('https://daniel4-scratch.github.io/font-archive/fonts/first-font.ttf');/*font-family: 'first font', regular;*/
+
+body {
+  /*font-family: helvetica, arial, sans-serif;*/
+  font-family: 'Nunito', sans-serif;
+  margin: 0em;
+  background: #64748B;
+  cursor: url('https://cdn.glitch.me/85581a5c-3d3a-4adb-9d44-dbf08483c8ae%2Faero_arrow.cur?v=1636877839734');
+}
+
+
+:root {
+  --theme: #64748B;
+  --other: #ffffff;
+  --grey: #f5f5f5;
+  --text-black: ;
+  --green: #63f27e;
+  --yellow: #f7eb63;
+  --red: #f76363;
+}
+/*nav bar*/
+.navbar .logo {
+  text-decoration: none;
+  color:white;
+}
+
+.navbar .icon {
+  float: right;
+  display: none;
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  color: white;
+  padding: 15px;
+  padding-top:20px;
+  font-size: 20px;
+  background: var(--theme);
+  margin: 0em;
+}
+
+.button {
+  transition-duration: 0.2s;
+  margin-left: 0.5em;
+  background-color: var(--theme);
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: ;
+  padding: 9px 10px;
+  text-decoration: none;
+  border:var(--theme) solid 3px;
+}
+.button:hover {
+  border:#9BA6B6 solid 3px;
+  background-color: #ffffff;
+  color: bLACK;
+  cursor: url('https://cdn.glitch.me/85581a5c-3d3a-4adb-9d44-dbf08483c8ae%2Faero_link.cur?v=1636877839735');
+}
+.button:active {
+}
+
+.button-white {
+  transition-duration: 0.2s;
+  margin-left: 0.5em;
+  background-color: white;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: var(--theme);
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: ;
+  padding: 9px 10px;
+  text-decoration: none;
+  border:var(--theme) solid 3px;
+}
+.button-white:hover{
+  border:#9BA6B6 solid 3px;
+}
+.navbar1.right {
+  margin-top: -0em;
+  float: right;
+}
+
+/*other*/
+.r-do {
+  vertical-align: middle;
+  text-decoration: none;
+}
+::selection{
+  background:#b3d9ff;
+}
+
+/*header*/
+.header {
+  background: var(--theme);
+  color: white;
+  padding: 40px;
+  padding-left: 50px;
+  
+  
+}
+
+.header .title {
+  font-size: 40px;
+}
+.header .sub {
+  font-size: 20px;
+}
+
+.header img {
+  float: right;
+  margin-top: -5em;
+  display: block;
+}
+
+/*content*/
+.content {
+  background: white;
+  color: #3b3b3b;
+  font-size: 17px;
+  padding: 40px;
+  padding-left: 50px;
+}
+
+.content a {
+  text-decoration: none;
+  color: var(--theme);
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content img {
+  border-radius: 0.5em;
+}
+
+
+/*status*/
+.content .box {
+  transition-duration:0.5s;
+  border-radius: 0.5em;
+  background-color: var(--grey);
+  padding: 10px;
+  padding-right: 0px;
+}
+.content .box .right {
+  color:white;
+  float: right;
+  margin-top: -78px;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  padding: 30px;
+  padding-bottom: 32px;
+  border-left:1px solid #dbdbdb;
+}
+
+.content .box .right.red {
+background-color: var(--red);
+}
+
+.content .box .right.green {
+background-color: var(--green);
+}
+
+.content .box .right.yellow {
+  background-color:var(--yellow);
+}
+
+.content .box-top {
+  border-radius: 0.5em;
+  background: var(--green);
+  color:white;
+  padding: 0.1px;
+  padding-left: 10px;
+}
+
+  
+.content .box.bblue:hover{ 
+  border-left:10px solid var(--theme);
+    }
+/*credits*/
+.profile {}
+.profile img {
+ max-width: 60px;
+ 
+border-radius:0.5em;
+border:3px solid #f5f5f5;
+}
+.profile .text {
+margin-left:-3em;
+padding:2px;
+background: var(--grey);
+  border-radius:0.5em;
+}
+/*footer f5f5f5*/
+
+.footer {
+  background: var(--grey);
+  color: #262626;
+  font-size: 14px;
+  padding: 40px;
+  padding-left: 50px;
+  padding-bottom: 90px;
+
+  /*min-height: 600px;
+  height: auto !important;
+  height: 600px;*/
+}
+.footer section {
+  margin-left: 1.5em;
+  margin-top: 3.5em;
+  float: right;
+  padding: ;
+  margin-top: -1em;
+  font-size: 15px;
+}
+
+.footer a {
+ line-height: 1.3;
+  text-decoration: none;
+  color: var(--theme);
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 9px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+   
+  }
+  .navbar.responsive .icon {
+
+    float: right;
+    position: absolute;
+    margin-top:15px;
+    margin-right:0.75em;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top:10px;
+    font-size:20px;
+    padding:15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer section {
+    margin-bottom: 2em;
+    text-align: center;
+    float: none;
+    padding: ;
+    margin-top: -1em;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header img {
+    float: none;
+    text-align: center;
+    margin-top: 0em;
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+.profile img {
+  margin-top:2em;
+}
+}
+
+
+.bg-footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: var(--grey);
+   color: white;
+   text-align: center;
+   z-index:-5;
+  height:100%;
+}
+
+.thingyy{
+  fill: var(--theme);
+  stroke: var(--theme);
+  width:100%;
+}
+
+/*loading screen*/
+#overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0.9);
+  transition: 1s 0.4s;
+}
+#progress{
+  height:1px;
+  background:#fff;
+  position:absolute;
+  width:0;                /* will be increased by JS */
+  top:50%;
+}
+#progstat{
+  font-size:0.7em;
+  letter-spacing: 3px;
+  position:absolute;
+  top:50%;
+  margin-top:-40px;
+  width:100%;
+  text-align:center;
+  color:#fff;
+}  
+
+/*Google search*/
+ .gsc-search-button-v2 {
+  transition-duration: 0.2s;
+  margin-left: 0.5em;
+  background-color: white;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: ;
+  padding: 9px 10px;
+  text-decoration: none;
+  border:var(--theme) solid 3px;
+      width:100px;
+      height:48px;
+}
+    .gsc-search-button-v2 svg{
+      fill:var(--theme);
+    }
+.gsc-search-button-v2:hover{
+  border:#a789d9 solid 3px;
+}
+    .gsc-search-button-v2:hover svg{
+  fill:white;
+}
+.navbar1.right {
+  margin-top: -0em;
+  float: right;
+}
+    
+/* Inline #6 | https://scratchflix.glitch.me/embed/google.html */
+
+div .content {
+  /* color: white; */
+  color: #7f45de;
+}
+
+/* default.css | https://www.google.com/cse/static/style/look/v4/default.css */
+
+.gsc-control-cse {
+  /* background-color: #fff; */
+  /* border: 1px solid #fff; */
+  background-color: #7f45de;
+  border: 1px solid #7f45de;
+}
+
+.gsc-input-box {
+  /* border: 1px solid #dfe1e5; */
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+    
+/* Inline #6 | https://scratchflix.glitch.me/embed/google.html */
+
+.gsc-input-box {
+  height: 38px;
+}
+
+/* Element | https://scratchflix.glitch.me/embed/google.html */
+
+#gsc-i-id1 {
+margin-top: 5px;
+}
