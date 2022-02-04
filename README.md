@@ -2,6 +2,8 @@
 
 This website is a bit messy to understand/remix, so you'll need to be a pro at html and css to understand/remix. ;)
 
+I am very proud of this repo, I built it my self top to bottom.
+
 ## Use of website
 - Must credit me in the footer or in the credits page when forking/using for own use.
 - Can not redistribute for money or make money off redistributions
