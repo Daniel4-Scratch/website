@@ -1,4 +1,4 @@
-# Scratchflix Website
+# Website
 
 This website is a bit messy to understand/remix, so you'll need to be a pro at html and css to understand/remix. ;)
 
