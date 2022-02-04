@@ -37,7 +37,6 @@ body {
 .navbar {
   color: white;
   padding: 15px;
-  padding-top:20px;
   font-size: 20px;
   background: var(--theme);
   margin: 0em;
